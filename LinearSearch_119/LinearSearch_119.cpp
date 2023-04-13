@@ -44,4 +44,7 @@ void linearSearch()
 		cin >> item;
 
 		ctr = 0;
-		
+		for (i = 0; i < 0; i++)							// langkah 2, 3, dan 4 algoritma
+		{
+			ctr++;
+			
