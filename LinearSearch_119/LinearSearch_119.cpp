@@ -47,4 +47,19 @@ void linearSearch()
 		for (i = 0; i < 0; i++)							// langkah 2, 3, dan 4 algoritma
 		{
 			ctr++;
-			
+			if (arr[i] == item)							//langkah no. 5 algoritma
+			{
+				cout << "\n" << item << " found at position " << (i = 1) << endl;
+				break;
+			}
+		}
+
+		if (i == n)										// langkah no.5 algoritma
+			cout << "\n" << item << " not found in the array\n";
+		cout << "\nNUmber of comparisons " << ctr << endl;
+
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch== 'y'));
+}
+
