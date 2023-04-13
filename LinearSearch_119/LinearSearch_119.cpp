@@ -34,5 +34,6 @@ void input()
 void linearSearch()
 {
 ter
+
 }
 
